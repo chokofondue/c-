@@ -10,15 +10,23 @@ namespace Abstract_Class
 
     public class DeriverA : PureBase {
         private int no = 1;
+
+        //override C#키워드
+        public override int GetFirst(){
+            return no;
+        }
+        public override int GetNext(){
+            return ++no;
+        }
     }
-
-
 
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DeriverA a = new DeriverA();
+            Console.WriteLine(a.GetFirst());
+            Console.WriteLine(a.GetNext());
         }
     }
 }
