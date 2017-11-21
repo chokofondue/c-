@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1ACE752D-A35E-4CB3-B019-F91E14BA1579}</ProjectGuid>
+    <ProjectGuid>{E766FEAA-174F-4DE6-B562-DBBD5FFC9A78}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Preprocessor_Directive</RootNamespace>
-    <AssemblyName>Preprocessor_Directive</AssemblyName>
+    <RootNamespace>Abstract_Class</RootNamespace>
+    <AssemblyName>Abstract_Class</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
